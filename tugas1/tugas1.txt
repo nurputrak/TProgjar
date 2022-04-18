@@ -1,0 +1,39 @@
+Tugas 1.
+
+Buat client-server yang mengimplementasikan, perintah:
+
+> ping hallooo woorldddddd ....
+terima : hallooo woorldddddd ....
+
+> ls
+ws_tcp.py
+
+> ls /etc/*
+passwd
+group
+....
+
+> get /etc/passwd passwd2
+fetch:/etc/passwd size: 2341 lokal:passwd2
+
+> get /etc/passwd abc
+fetch:/etc/passwd size: 2341 lokal:abc
+
+> put hoho.txt
+> send: hoho.txt size: 123 remote:hoho.txt
+
+> quit
+server shutdown..
+client shutdown..
+
+(edited)
+cara run program: 
+Jalankan python tugas1_client-server_tcp.py server 127.0.0.1, 
+lalu di cmd lain jalankan python tugas1_client-server_tcp.py client 127.0.0.1
+
+
+
+
+   
+
+
